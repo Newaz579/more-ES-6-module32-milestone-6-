@@ -40,3 +40,14 @@ function threeValue(x, y, z = 7) {
     return x + y + z;
 }
 console.log(threeValue(10, 20));
+
+const docObject = {
+    nam: "nai",
+    address: 'Takleo bolbona',
+    addressDena: {
+        kedenaAddress: {
+            amidina: ['sakina', 'jarina', 'molina', 'saabina'],
+        },
+    },
+};
+console.log(docObject?.addressDena?.kedenaAddress?.amidina);
